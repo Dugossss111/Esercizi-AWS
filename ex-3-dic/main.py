@@ -33,4 +33,30 @@ for x in price_list_o:
 
 print(counter)
 
+#=======================
+#=== Esercizio 2
+#=======================
 
+server_list: list[int] = [15, 18, 22, 25, 28, 30, 27, 24, 20]
+
+
+print
+
+#=======================
+#=== Esercizio 7
+#=======================
+
+products: list[dict[str, str | int | float]] = [
+    {"nome": "Laptop", "prezzo": 899.99, "quantita": 5},
+    {"nome": "Mouse", "prezzo": 25.50, "quantita": 50},
+    {"nome": "Tastiera", "prezzo": 75.00, "quantita": 30},
+    {"nome": "Monitor", "prezzo": 299.99, "quantita": 15},
+]
+
+inventario: float = 0
+
+for product in products:
+   
+    print(product["prezzo"]) if product["prezzo"] > 100 else None   
+
+#da sistemare
