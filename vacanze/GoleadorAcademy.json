@@ -1,0 +1,25 @@
+{
+  "corsi": [
+    "Inglese Avanzato",
+    "Web Design"
+  ],
+  "partecipanti": [
+    "Mario Rossi",
+    "Francesco Verdi",
+    "2"
+  ],
+  "punteggi": {
+    "Inglese Avanzato": {
+      "Mario Rossi": [
+        4,
+        "2026-01-07 15:57:10"
+      ]
+    },
+    "Web Design": {
+      "Francesco Verdi": [
+        7,
+        "2026-01-07 15:56:16"
+      ]
+    }
+  }
+}
